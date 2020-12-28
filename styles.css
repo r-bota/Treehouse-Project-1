@@ -73,15 +73,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid rgba(255, 255, 255, 0.808);
+  border: 4px solid rgba(252, 239, 239, 0.808);
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.4);
 }
 .tag {
-  text-shadow: rgba(0, 0, 0, 0.800) 1px 0 10px;
-
+  text-shadow: rgba(0, 0, 0, 0.95) 1px 0 10px;
   color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 5px;
@@ -89,7 +88,6 @@ header .profile-image:hover {
   margin: 10px auto;
 } 
 .location {
-  
   opacity: .9;
   color: rgb(255, 255, 255);
 }
@@ -164,12 +162,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
