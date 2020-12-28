@@ -31,7 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
   z-index:1;
-  
+  opacity: .96;
 }
 .nav {
   display: flex;
